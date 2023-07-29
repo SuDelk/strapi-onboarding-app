@@ -4,7 +4,8 @@
   "info": {
     "singularName": "profile",
     "pluralName": "profiles",
-    "displayName": "Profile"
+    "displayName": "Profile",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,9 +14,6 @@
   "attributes": {
     "fullName": {
       "type": "string"
-    },
-    "email": {
-      "type": "email"
     },
     "phoneNumber": {
       "type": "string"
@@ -56,8 +54,8 @@
     "other": {
       "type": "boolean"
     },
-    "uid": {
-      "type": "uid"
+    "email": {
+      "type": "string"
     }
   }
 }
