@@ -10,3 +10,11 @@ module.exports = [
   'strapi::favicon',
   'strapi::public',
 ];
+module.exports = {
+  settings: {
+    cors: {
+      enabled: true,
+      origin: '*',
+    },
+  },
+};

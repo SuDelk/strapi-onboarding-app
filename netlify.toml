@@ -1,3 +1,3 @@
 [build]
-command = "npm install && npm run build" # Or any other build command you use
-publish = "dist"
+  command = "npm run build"
+  publish = "build"
