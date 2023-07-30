@@ -116,3 +116,4 @@ build
 .netlify
 
 package-lock.json
+data
